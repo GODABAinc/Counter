@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.myNumber{
+    align-items: center;
+}
+.cnt{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+.btns{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    list-style: none;
+    position: static;
+    cursor: pointer;
+}
+.btn{
+    border: solid;
+    background: rgb(6, 246, 246);
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background: burlywood;
+    transition: all 0.3s ease;
+}
